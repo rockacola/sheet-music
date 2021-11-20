@@ -3,13 +3,17 @@
 }
 
 \score {
-  \relative e' {
+  \relative c'' {
     \tempo 4 = 85
 
-    d d d f |
-    g2 f |
-    d4 g f f |
-    d1 |
+
+    \repeat "volta" 2 {
+      d d d f |
+      g2 f |
+      d4 g f f |
+      d1 |
+    }
+
   }
 
   \layout {}
