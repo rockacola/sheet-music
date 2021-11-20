@@ -1,5 +1,5 @@
 \header {
-  title = "Untitled 1"
+  title = "Untitled 2"
   composer = "Composer"
 }
 
@@ -7,6 +7,7 @@
   \relative c' {
     c4
     c4
+    b4
   }
 
   \layout {}
