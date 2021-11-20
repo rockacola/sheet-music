@@ -4,8 +4,7 @@
 
 \score {
   \relative c'' {
-    \tempo 4 = 85
-
+    \tempo 4 = 105
 
     \repeat "volta" 2 {
       d d d f |
@@ -13,7 +12,6 @@
       d4 g f f |
       d1 |
     }
-
   }
 
   \layout {}
