@@ -19,11 +19,13 @@ main = \relative g'' {
     \repeat "volta" 2 { \main }
 
     \relative g'' {
-      f4 f e a |
-      f f e a |
+      f4 f e \relative c'' { a } |
+      f f e \relative c'' { a } |
       f g a f |
       e c b2
     }
+
+    R1
 
     \main
   }
