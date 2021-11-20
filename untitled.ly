@@ -1,13 +1,13 @@
 \header {
   title = "Untitled 2"
-  composer = "Composer"
 }
 
 \score {
-  \relative c' {
-    c4
-    c4
-    b4
+  \relative f' {
+    d d d f |
+    g2 f |
+    d4 g f f |
+    d1 |
   }
 
   \layout {}
