@@ -2,20 +2,28 @@
   title = "Allegro"
 }
 
-
-main = {
-  \relative c'' {
-    a4 a e e |
-    f8 g a g e4 e |
-  }
+main = \relative g'' {
+  a4 a e e |
+  f8 g a f e4 e |
+  d d c c |
+  b8 a b c a2
 }
 
 \score {
-  \relative c'' {
+  \relative g'' {
+    \key a \major
+    \tempo 4 = 105
     \numericTimeSignature
     \time 4/4
-    \key a \minor
-    \tempo 4 = 80
+
+    \repeat "volta" 2 { \main }
+
+    \relative g'' {
+      f4 f e a |
+      f f e a |
+      f g a f |
+      e c b2
+    }
 
     \main
   }
